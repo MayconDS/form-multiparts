@@ -18,7 +18,7 @@
   flex: 1;
 }
 .sidebar {
-  width: 225px;
+  width: 200px;
 
   border-right: 1px solid #16195c;
 }
@@ -28,4 +28,10 @@
   padding-left: 40px;
 
   padding-top: 40px;
+}
+
+@media (max-width: 470px) {
+  .steps {
+    flex-direction: column;
+  }
 }
