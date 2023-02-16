@@ -1,0 +1,31 @@
+.container {
+  padding-left: 20px;
+  background-color: #02044a;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.area {
+  margin: auto;
+  max-width: 980px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.steps {
+  display: flex;
+  flex: 1;
+}
+.sidebar {
+  width: 225px;
+
+  border-right: 1px solid #16195c;
+}
+.page {
+  display: flex;
+  flex: 1;
+  padding-left: 40px;
+
+  padding-top: 40px;
+}

@@ -1,0 +1,9 @@
+.container-loader h1 {
+  color: #fff;
+  font-size: 27px;
+}
+.container-loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
